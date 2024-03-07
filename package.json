@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=development CLIENT_APP=http://localhost:3000 MONGO_USER=tuyetanh1410202 MONGO_PASS=PDqQAHKRoaGJfjSk SESSION_SECRET=mysecret nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "compression": "^1.7.4",
+    "connect-mongodb-session": "^3.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "express-validator": "^7.0.1",
+    "moment": "^2.29.4",
+    "mongodb": "^6.2.0",
+    "mongoose": "^8.0.0",
+    "nodemon": "^3.0.1"
+  }
+}
